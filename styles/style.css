@@ -11,6 +11,16 @@ html {
   float: left;
 }
 
+header {
+  border-bottom: seashell;
+}
+
+.site-nav-link {
+  color: gray;
+  text-decoration: underline;
+  box-sizing: border-box;
+}
+
 li {
   display: inline;
   position: right;
@@ -19,7 +29,6 @@ li {
   padding: 5px;
   box-sizing: border-box;
   text-decoration: underline;
-  color: gray;
 }
 
 .mission {
@@ -38,34 +47,6 @@ li {
   text-align: center;
 }
 
-/* Bottom left text */
-.bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-}
-
-/* Top left text */
-.top-left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-}
-
-/* Top right text */
-.top-right {
-  position: absolute;
-  top: 8px;
-  right: 16px;
-}
-
-/* Bottom right text */
-.bottom-right {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-}
-
 /* Centered text */
 .centered {
   position: absolute;
@@ -76,4 +57,8 @@ li {
 .tea-of-the-month {
   position: relative;
   text-align: center;
+}
+
+a:hover {
+  background-color: blueviolet;
 }
