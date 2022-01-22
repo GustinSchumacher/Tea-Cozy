@@ -1,0 +1,36 @@
+html {
+  background-color: black;
+  color: white;
+}
+
+.logo {
+  padding-left: 10px;
+  height: 50px;
+  position: left;
+}
+
+li {
+  display: inline;
+  position: right;
+}
+
+.mission {
+  height: 700px;
+  position: relative;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 69px;
+}
+
+.mission-text {
+  background-image: url("Resources/Images/img-mission-background.jpg");
+  position: relative;
+  text-align: center;
+}
+
+.tea-of-the-month {
+  position: relative;
+  text-align: center;
+}
