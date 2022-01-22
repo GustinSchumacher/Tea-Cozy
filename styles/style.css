@@ -9,6 +9,7 @@ html {
   position: left;
 }
 
+
 li {
   display: inline;
   position: right;
@@ -22,14 +23,49 @@ li {
   margin-left: auto;
   margin-right: auto;
   padding-top: 69px;
+  border-top: 1px seashell;
 }
 
 .mission-text {
-  background-image: url("Resources/Images/img-mission-background.jpg");
   position: relative;
   text-align: center;
 }
 
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .tea-of-the-month {
   position: relative;
   text-align: center;
