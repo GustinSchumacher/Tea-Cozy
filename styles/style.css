@@ -55,7 +55,7 @@ li {
   transform: translate(-50%, -50%);
   flex-direction: column;
   background-color: black;
-  
+  align-items: center;
 }
 .tea-of-the-month {
   position: relative;
