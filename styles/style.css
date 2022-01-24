@@ -67,12 +67,20 @@ li {
   height: 200px;
   display: inline;
   padding-bottom: 10px;
-  align-content:center;
+  align-items: flex-start;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+}
+
+figure {
+  display: inline-block;
 }
 
 
+figcaption {
+  text-align: center;
+}
 
 a:hover {
   background-color: blueviolet;
