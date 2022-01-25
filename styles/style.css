@@ -81,6 +81,22 @@ figcaption {
   padding-top: 10px;
 }
 
+.location {
+  height: 400px;
+  width: 400px;
+  position: relative;
+}
+.location-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.location-text {
+  z-index: 100;
+  position: absolute;
+  left: 150px;
+  top: 350px;
+}
 a:hover {
   background-color: blueviolet;
 }
