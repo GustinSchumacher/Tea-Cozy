@@ -104,6 +104,15 @@ figcaption {
   background-color: black;
   display: flex;
 }
+
+.contact {
+  text-align: center;
+}
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
 a:hover {
   background-color: blueviolet;
 }
