@@ -1,8 +1,8 @@
 html {
   background-color: black;
   color: white;
+  max-width: 100%;
 }
-
 
 #logo {
   padding-left: 10px;
@@ -84,6 +84,9 @@ figcaption {
 .location {
   height: 500px;
   position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(20%, 0%);
 }
 .location-img {
   position: relative;
@@ -100,7 +103,6 @@ figcaption {
   top: 350px;
   background-color: black;
   display: flex;
-  
 }
 a:hover {
   background-color: blueviolet;
